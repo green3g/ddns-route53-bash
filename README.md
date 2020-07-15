@@ -1,5 +1,13 @@
 # DDNS for Route53
 
+Automatically update AWS route 53 records with current IP address
+
+## Requirements:
+
+ - AWS CLI
+ - `jq`: `apt install jq`
+
+
 Usage:
 
 ```
