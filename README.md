@@ -8,7 +8,7 @@ Automatically update AWS route 53 records with current IP address
  - `jq`: `apt install jq`
 
 
-Usage:
+## Usage:
 
 ```
 git clone https://github.com/roemhildtg/ddns-route53-bash.git
@@ -19,3 +19,6 @@ chmod +x update-ddns.bash
 ./update-ddns.bash domain.com. sub.domain.com. sub2.domain.com. ...
 ```
 
+## Credits:
+
+https://www.cloudsavvyit.com/3103/how-to-roll-your-own-dynamic-dns-with-aws-route-53/
