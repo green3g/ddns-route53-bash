@@ -15,12 +15,6 @@ if [[ ! $IP =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
   exit 1
 fi
 
-for u
-do
-	echo $u
-done
-
-
 for NAME
 do
 	echo "Processing $NAME"
